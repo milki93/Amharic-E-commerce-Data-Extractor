@@ -41,8 +41,6 @@ Amharic-E-commerce-Data-Extractor/
 - **Vendor Analytics Engine**: Automatically computes business metrics per vendor (posts/week, views, prices).
 - **Lending Scorecard**: Ranks vendors with a weighted score for lending decisions.
 - **Model Explainability**: Visual explanations via SHAP & LIME to validate and trust NER outputs.
-- **Modular Colab Notebooks**: Reproducible step-by-step workflow for end-to-end execution.
-
 ---
 
 ## Project Workflow
@@ -82,8 +80,6 @@ Competing models (e.g., **XLM-R**, **mBERT**) are evaluated for **accuracy**, **
 - LIME
 - Pandas
 - NumPy
-- Google Colab (recommended for training + GPU)
-
 ---
 
 ## Future Work
