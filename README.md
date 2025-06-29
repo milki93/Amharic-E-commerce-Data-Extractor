@@ -51,23 +51,23 @@ Amharic-E-commerce-Data-Extractor/
 
 ## Project Workflow
 
-### Telegram Scraper
+- **Telegram Scraper**
 A Python script fetches messages, views, and timestamps from selected Amharic e-commerce Telegram channels.
 
-### Manual Annotation
+- **Manual Annotation**
 A subset of posts is labeled in **CoNLL** format to train the NER model for Amharic.
 
-### NER Model Training
+- **NER Model Training**
 The `Davlan/afro-xlmr-base` model is fine-tuned on the custom Amharic data using Hugging Face's **Trainer API**.
 
-### Model Comparison
+- **Model Comparison**
 Competing models (e.g., **XLM-R**, **mBERT**) are evaluated for **accuracy**, **speed**, and **robustness**.
 
-### Interpretability
+- **Interpretability**
 **SHAP** and **LIME** are used to explain which tokens influence entity classification most, ensuring transparency and trust.
 
-### Vendor Scoring
-A scoring engine computes:
+- **Vendor Scoring**
+- scoring engine computes:
 - Posting frequency  
 - Average views per post  
 - Average product price  
