@@ -31,10 +31,6 @@ Amharic-E-commerce-Data-Extractor/
 │   ├── 5_model_interpretability.ipynb  # Explain predictions via SHAP & LIME
 │   └── 6_vendor_scorecard.ipynb # Compute vendor metrics and lending score
 │
-├── models/
-│   └── checkpoint-xx/            # Fine-tuned NER model outputs
-│
-├── vendor_scorecard.csv         # Final ranked scorecard of vendors
 └── README.md
 ```
 ---
