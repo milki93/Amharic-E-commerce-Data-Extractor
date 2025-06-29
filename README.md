@@ -67,12 +67,13 @@ Competing models (e.g., **XLM-R**, **mBERT**) are evaluated for **accuracy**, **
 **SHAP** and **LIME** are used to explain which tokens influence entity classification most, ensuring transparency and trust.
 
 - **Vendor Scoring**
-- scoring engine computes:
-- Posting frequency  
-- Average views per post  
-- Average product price  
-- Top-performing product  
-- Lending score  
+  - Scoring engine computes:
+    - Posting frequency  
+    - Average views per post  
+    - Average product price  
+    - Top-performing product  
+    - Lending score  
+
 
 --- 
 
